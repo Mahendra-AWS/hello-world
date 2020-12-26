@@ -1,0 +1,12 @@
+---
+  hosts: all
+  tasks:
+    - name: create a folder
+      shell: mkdir folder1
+
+    - name: get into folder
+      shell: cd folder1
+      
+    - name: create file 
+      shell: echo 'hello world' > dummy.txt
+    
