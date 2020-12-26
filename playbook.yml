@@ -1,5 +1,5 @@
 ---
-  hosts: localhost
+- hosts: localhost
   tasks:
     - name: create a folder
       shell: mkdir folder1
