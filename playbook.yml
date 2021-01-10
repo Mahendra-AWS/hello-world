@@ -2,11 +2,11 @@
 - hosts: localhost
   tasks:
     - name: create a folder
-      shell: mkdir folder1
+      shell: mkdir folder2
 
     - name: get into folder
-      shell: cd folder1
+      shell: cd folder2
 
     - name: create file 
-      shell: echo 'hello world' > dummy.txt
+      shell: echo 'hello world' > dummy2.txt
     
